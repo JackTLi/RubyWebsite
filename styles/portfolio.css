@@ -9,8 +9,6 @@
 	width: 33%; /* UPDATE THIS TO BE (100% / NUMBER OF HORIZONTAL PAGES) */
 	height: 50px;
 	display:block;
-	text-align: center
-	background-color: #fff;
 }
 
 .nav .home {
@@ -84,10 +82,11 @@
 	height: 100%;
 	display:block;
 	overflow: hidden;
+	text-align: center
 }
 
 #BBQ .description {
-	height: 90%;
+	height: calc(100% - 200px);
 }
 
 #BBQ .description #image {
@@ -122,7 +121,7 @@
 
 	position: relative;
 }
-#coloredBox {
+#BBQ #coloredBox {
 	position:absolute;
 	left: -37px;
 	line-height: 70px;
@@ -143,7 +142,7 @@
 }
 
 #impactreport .description#elementtwo {
-	height: 90%;
+	height: calc(100% - 200px);
 }
 
 #impactreport .description .image {
@@ -153,7 +152,7 @@
 	max-width: 1264px;
 	max-height: 885px;
 	height: 100%;
-	width: 50%;
+	width: 49%;
 
 	position: relative;
 	top: 50%;
@@ -177,12 +176,25 @@
 
 
 #impactreport .description .image#elementone {
-	float:left;
 	background-image: url(../Images/Portfolio/impactreport/ElementOne.png);
+	float:left;
 }
 
 #impactreport .description .textBox#elementone {
 	float:right;
+}
+
+#impactreport .description .wrapper#elementtwo {
+	float:left;
+	height: 70%;
+	width: 35%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	border: 1px #686868 solid;
+
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 #impactreport .description .image#elementtwo {
@@ -191,26 +203,108 @@
 }
 
 #impactreport .description .textBox#elementtwo {
-	float:left;
+	width: auto;
+
 }
 
+#impactreport #coloredBox {
+	position:absolute;
+	bottom: -37px;
+	line-height: 70px;
+	width: 70px;
+	text-align: center;
 
+}
+/************************* Knowledge hook */
+
+#knowledgehook .nav {
+	font-weight: bold;
+	color: #c79a72;
+	margin-top: -1px;
+	width: 33.33333%; /* UPDATE THIS TO BE (100% / NUMBER OF HORIZONTAL PAGES) */
+	height: 50px;
+	display:block;
+	background-color: #fff;
+}
+
+#knowledgehook .jumbotron {
+	background-image: url(../Images/Portfolio/knowledgehook/HeaderPicture.png);
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display:block;
+	overflow: hidden;
+	text-align: center;
+}
+
+#knowledgehook .description{
+	height: calc(100% - 200px);
+}
+
+#knowledgehook .description .image {
+	float:right;
+	background-image: url(../Images/Portfolio/knowledgehook/ElementTwo.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	max-width: 646px;
+	max-height: 798px;
+	height: 100%;
+	width: 42.5%;
+
+	margin-right: 7.5%;
+
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#knowledgehook .description .textBox {
+	float: left;
+	width: 35%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	line-height: 40px;
+
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#knowledgehook .description .textBox h2 {
+	color: #c9b59a;
+}
 
 
 /****************************** Universal */
 
+#icon_HEADERARROW {
+	position: absolute;
+	display: inline-block;
+	transform: translateX(-50px);
+	bottom: 30px;
+	background-image: url(../Images/Shared/HeaderArrow.png);
+	background-size: 100px 100px;
+	width: 100px;
+	height: 100px;
+}
+
 .footer {
-	height: 10%;
+	height: 200px;
 	background-color: #e2ccb8;
 }
 
 .footer ul {
-	padding-top: 50px;
 	list-style-type: none;
 	width: 351px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 50px;
 }
+
 
 .footer ul li {
 	float:left;
