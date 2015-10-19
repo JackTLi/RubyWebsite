@@ -1,0 +1,149 @@
+/****************************** Jumbotron */
+
+.jumbotron {
+	background-image: url(../Images/Home/HeaderPicture@High.png);
+	background-repeat: no-repeat;
+	background-color: black;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display:block;
+	text-align: center
+}
+
+/* NAVIGATION */
+
+.jumbotron .nav .home {
+	position: absolute;
+	left: 0;
+}
+
+.jumbotron .nav .home img {
+	float:left;
+	display: inline-block;	
+	height: 70px;
+	padding-left: 150px;
+}
+
+.jumbotron .nav {
+	font-weight: bold;
+	color: #fff;
+	padding-top: 20px;
+}
+
+.jumbotron .nav .links {
+	float: right;
+	display: inline-block;
+	position:absolute;
+	right: 0;
+	height: 70px;
+	padding-right: 150px;
+}
+
+.jumbotron .nav .links ul {
+	list-style-type: none;
+}
+
+.jumbotron .nav .links li {
+	display: inline;
+	padding-left: 50px;
+}
+
+
+/*****/
+
+.jumbotron .content #text_UXDESIGNER {
+	position:absolute;
+	transform: translateX(-300px);
+	top: 20%;
+	width: 600px;
+ 	vertical-align: middle;
+}
+
+.jumbotron #icon_HEADERARROW {
+	position: absolute;
+	display: inline-block;
+	transform: translateX(-50px);
+	bottom: 30px;
+	background-image: url(../Images/HeaderArrow.png);
+	background-size: 100px 100px;
+	width: 100px;
+	height: 100px;
+}
+
+/****************************** Center Grid Pane */
+.centerPane {
+  overflow: auto;
+}
+
+.centerPane ul {
+  list-style-type: none;
+  width: 2000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.centerPane li {
+	display: inline;
+	width: 25%;
+}
+
+.centerPane li img {
+	float:left;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  	margin-right: 40px;
+  	width: 460px;
+}
+
+@media screen and (max-width: 2000px) {
+	.centerPane ul {
+		width: 1500px;
+	}
+}
+@media screen and (max-width: 1500px) {
+	.centerPane ul {
+		width: 1000px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.centerPane ul {
+		width: 500px;
+	}
+}
+
+/****************************** Footer */
+
+.footer {
+	background-color: #9698a5;
+	width: 100%;
+	height: 50%;
+}
+
+.footer .imageHalf {
+	float:left;
+}
+
+.footer .imageHalf #ProfilePicture {
+	display: inline-block;	
+	height: 400px;
+}
+
+.footer .textHalf {
+	float:right;
+}
+
+/****************************** Universal */
+
+html{
+	 height:100%;
+	 min-height:100%;
+	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+ }
+body{
+	margin: 0;
+	height: 100%;
+ 	min-height:100%;
+ }

@@ -1,0 +1,165 @@
+
+/****************************** Nav */
+.nav {
+	position:absolute;
+	z-index: 2;
+	font-weight: bold;
+	color: #c79a72;
+	margin-top: -1px;
+	width: 33%; /* UPDATE THIS TO BE (100% / NUMBER OF HORIZONTAL PAGES) */
+	height: 50px;
+	display:block;
+	text-align: center
+	background-color: #fff;
+}
+
+.nav .home {
+	position: absolute;
+	left: 0;
+}
+
+.nav .home img {
+	float:left;
+	display: inline-block;	
+	height: 50px;
+	padding-left: 150px;
+}
+
+.nav .links {
+	float: right;
+	display: inline-block;
+	position:absolute;
+	right: 0;
+	height: 70px;
+	padding-right: 150px;
+}
+
+.nav .links ul {
+	list-style-type: none;
+}
+
+.nav .links li {
+	display: inline;
+	padding-left: 50px;
+}
+
+/****************************** Portfolio Items */
+
+.fp-slides {
+	overflow-y: visible !important;
+}
+.fp-tableCell {
+	display: block !important;
+	height: 100% !important;
+}
+
+.fp-controlArrow.fp-prev {
+	background-image: url(../Images/Shared/Arrow_left.png);
+	background-size: contain;
+	border: 0 !important;
+	width: 70px !important;
+	height: 70px !important;
+}
+.fp-controlArrow.fp-next {
+	background-image: url(../Images/Shared/Arrow_right.png);
+	background-size: contain;
+	border: 0 !important;
+	width: 70px !important;
+	height: 70px !important;
+}
+
+
+
+/************************* BBQ */
+#BBQ .jumbotron {
+	background-image: url(../Images/Portfolio/BBQ/HeaderPicture@High.png);
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display:block;
+	overflow: hidden;
+}
+
+#BBQ .description {
+	height: inherit;
+}
+
+#BBQ .description #image {
+	float:left;
+	margin-left: 7.5%;
+	margin-top: 100px;
+	background-image: url(../Images/Portfolio/BBQ/ComputerPicture.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display:block;
+	width: 30%;
+	height: 50%;
+	max-width: 693px;
+	max-height: 856px;
+}
+
+#BBQ .description .textBox {
+	position: relative;
+	padding-top: 100px;
+	float:right;
+	width: 35%;
+	height: 756px;
+	padding-left: 100px;
+	padding-right: 7.5%;
+	line-height: 40px;
+	border-left: 1px #d2d2d2 solid;
+	border-bottom: 1px #686868 solid;
+}
+
+#coloredBox {
+	position:absolute;
+	left: -37px;
+	line-height: 70px;
+	width: 70px;
+	text-align: center;
+
+}
+
+#BBQ .description .textBox h2 {
+	color: #c79a72;
+}
+
+#BBQ .footer {
+	height: 200px;
+	background-color: #c79a72;
+}
+
+#BBQ .footer ul {
+	padding-top: 50px;
+	list-style-type: none;
+	width: 351px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#BBQ .footer ul li {
+	float:left;
+	display: inline;
+	margin-right: 40px;
+}
+
+
+
+/****************************** Universal */
+
+html{
+	 height:100%;
+	 min-height:100%;
+	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+ }
+body{
+	margin: 0;
+	height: 100%;
+ 	min-height:100%;
+ 	overflow-y: scroll;
+overflow-x: hidden;
+ }
