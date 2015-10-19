@@ -19,7 +19,7 @@
 .nav .home img {
 	float:left;
 	display: inline-block;	
-	height: 50px;
+	height: 76px;
 	padding-left: 150px;
 }
 
@@ -30,6 +30,8 @@
 	right: 0;
 	height: 70px;
 	padding-right: 150px;
+	letter-spacing: 5px;
+	font-size: 25px;
 }
 
 .nav .links ul {
