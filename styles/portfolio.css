@@ -56,6 +56,7 @@
 .fp-controlArrow.fp-prev {
 	background-image: url(../Images/Shared/Arrow_left.png);
 	background-size: contain;
+	background-repeat: no-repeat;
 	border: 0 !important;
 	width: 70px !important;
 	height: 70px !important;
@@ -63,9 +64,11 @@
 .fp-controlArrow.fp-next {
 	background-image: url(../Images/Shared/Arrow_right.png);
 	background-size: contain;
+	background-repeat: no-repeat;
 	border: 0 !important;
 	width: 70px !important;
 	height: 70px !important;
+	padding-right: 15px;
 }
 
 
@@ -84,13 +87,12 @@
 }
 
 #BBQ .description {
-	height: inherit;
+	height: 90%;
 }
 
 #BBQ .description #image {
 	float:left;
 	margin-left: 7.5%;
-	margin-top: 100px;
 	background-image: url(../Images/Portfolio/BBQ/ComputerPicture.png);
 	background-size:contain;
 	background-repeat: no-repeat;
@@ -100,21 +102,26 @@
 	height: 50%;
 	max-width: 693px;
 	max-height: 856px;
+
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 #BBQ .description .textBox {
-	position: relative;
-	padding-top: 100px;
+
 	float:right;
 	width: 35%;
-	height: 756px;
+	height: 60%;
 	padding-left: 100px;
 	padding-right: 7.5%;
 	line-height: 40px;
 	border-left: 1px #d2d2d2 solid;
 	border-bottom: 1px #686868 solid;
-}
+	padding-top: 250px;
 
+	position: relative;
+}
 #coloredBox {
 	position:absolute;
 	left: -37px;
@@ -128,12 +135,76 @@
 	color: #c79a72;
 }
 
-#BBQ .footer {
-	height: 200px;
-	background-color: #c79a72;
+/************************* Impact Report */
+
+#impactreport .description#elementone{
+	height: 100%;
+	/*max-height: 885px;*/
 }
 
-#BBQ .footer ul {
+#impactreport .description#elementtwo {
+	height: 90%;
+}
+
+#impactreport .description .image {
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	max-width: 1264px;
+	max-height: 885px;
+	height: 100%;
+	width: 50%;
+
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#impactreport .description .textBox {
+	width: 35%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	line-height: 40px;
+
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#impactreport .description .textBox h2 {
+	color: #c9b59a;
+}
+
+
+#impactreport .description .image#elementone {
+	float:left;
+	background-image: url(../Images/Portfolio/impactreport/ElementOne.png);
+}
+
+#impactreport .description .textBox#elementone {
+	float:right;
+}
+
+#impactreport .description .image#elementtwo {
+	float:right;
+	background-image: url(../Images/Portfolio/impactreport/ElementTwo.png);
+}
+
+#impactreport .description .textBox#elementtwo {
+	float:left;
+}
+
+
+
+
+/****************************** Universal */
+
+.footer {
+	height: 10%;
+	background-color: #e2ccb8;
+}
+
+.footer ul {
 	padding-top: 50px;
 	list-style-type: none;
 	width: 351px;
@@ -141,15 +212,11 @@
 	margin-right: auto;
 }
 
-#BBQ .footer ul li {
+.footer ul li {
 	float:left;
 	display: inline;
 	margin-right: 40px;
 }
-
-
-
-/****************************** Universal */
 
 html{
 	 height:100%;
