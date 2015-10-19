@@ -73,7 +73,7 @@
 
 /************************* BBQ */
 #BBQ .jumbotron {
-	background-image: url(../Images/Portfolio/BBQ/HeaderPicture@High.png);
+	background-image: url(../Images/Portfolio/BBQ/HeaderPicture.png);
 	background-repeat: no-repeat;
 	background-color: black;
 	background-position: center center;
@@ -395,7 +395,7 @@
 
 /************************* Partners Meeting */
 #partnersmeeting .jumbotron {
-	background-image: url(../Images/Portfolio/partnersmeeting/HeaderPicture@High.png);
+	background-image: url(../Images/Portfolio/partnersmeeting/HeaderPicture.png);
 	background-repeat: no-repeat;
 	background-color: black;
 	background-position: center center;

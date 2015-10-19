@@ -1,7 +1,7 @@
 /****************************** Jumbotron */
 
 .jumbotron {
-	background-image: url(../Images/Home/HeaderPicture@High.png);
+	background-image: url(../Images/Home/HeaderPicture.png);
 	background-repeat: no-repeat;
 	background-color: black;
 	background-attachment: fixed;
@@ -92,8 +92,8 @@
 
 .centerPane li img {
 	float:left;
-  	margin-top: 20px;
-  	margin-bottom: 20px;
+  	margin-top: 15px;
+  	margin-bottom: 30px;
   	margin-right: 40px;
   	width: 460px;
 }
