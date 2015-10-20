@@ -245,7 +245,7 @@
 	color: #c79a72;
 	margin-top: -1px;
 	width: 20%; /* UPDATE THIS TO BE (100% / NUMBER OF HORIZONTAL PAGES) */
-	height: 50px;
+	height: 75px;
 	display:block;
 	background-color: #fff;
 }
@@ -494,6 +494,12 @@
 	float:left;
 	display: inline;
 	margin-right: 40px;
+}
+
+.CopyRight {
+	color:white;
+	opacity: 0.5;
+	padding-top: 30px;
 }
 
 html{
